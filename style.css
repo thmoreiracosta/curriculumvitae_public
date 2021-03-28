@@ -36,7 +36,7 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul,li,
     width: 100%;
     max-width: 1125px;
     margin: 0 auto; 
-    padding: 30px;
+    padding: 20px;
 }
 
 .coluna{
@@ -205,13 +205,14 @@ header .coluna-direita{
 }
 
 header .coluna img{
-    max-width: 250px;
-    margin: 13px 26px;   
+    max-width: 320px;
+    margin: -30px -20px; 
+      
 }
 
 header .coluna h1{
     font-size: 1.7rem;
-    margin: 0 33px
+    margin: 40px 33px 7px;
 }
 
 header .coluna p{
@@ -279,9 +280,9 @@ footer nav .redes-sociais li a img{
 
 /* PÁGINA INICIAL */
 main .coluna section{
-    border: 2px solid #d4e9ff;
-    margin: 0 0 20px;
-    padding:20px;
+    border-bottom: 2px solid #d4e9ff;
+    margin: 0 0 15px;
+    padding:6px;
     min-height:150px;
 }
 
@@ -412,6 +413,10 @@ main .coluna section ul li p{}
         align-items: flex-start;
         justify-content: space-between;
     } 
+
+    .container{           
+        padding: 30px;
+    }
     
     footer nav p{        
         font-size: 1.0rem;
@@ -442,13 +447,14 @@ main .coluna section ul li p{}
     }
 
     header .coluna img{
-        max-width: 250px;
-        border-radius: 100%;
+        max-width: 222px;
+        border-radius: 12%;
+        margin: 8px 20px 0;
     }
 
     header .coluna h1{
         font-size: 1.7rem;
-        margin: 0;
+        margin: 0 0 5px;
     }
 
     header .coluna p{
@@ -471,6 +477,12 @@ main .coluna section ul li p{}
 
     header .coluna ul{
         margin: 20px 0 0;
+    }
+
+    main .coluna section{
+        border: 2px solid #d4e9ff;            
+        margin: 0 0 20px;
+        padding:20px;           
     }
 
     .button {
